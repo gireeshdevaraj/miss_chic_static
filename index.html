@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MISS CHIC</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;400&family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg: #fff;
+      --accent: #111;
+      --muted: #666;
+    }
+    html,body{height:100%}
+    body{
+      margin:0;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background: linear-gradient(180deg, #ffffff 0%, #fbfaf8 100%);
+      font-family: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color:var(--accent);
+    }
+    .hero{
+      text-align:center;
+      padding:48px;
+    }
+    h1{
+      margin:0;
+      font-family: "Playfair Display", serif;
+      font-weight:700;
+      font-size:4.25rem;
+      letter-spacing:0.04em;
+    }
+    /* ensure bold appearance for accessibility */
+    h1 strong{font-weight:900; display:inline-block;}
+    .caption{
+      margin-top:12px;
+      color:var(--muted);
+      font-size:1.125rem;
+      font-weight:300;
+      text-transform:none;
+    }
+    @media (max-width:600px){
+      h1{font-size:2.25rem}
+      .caption{font-size:1rem}
+    }
+  </style>
+</head>
+<body>
+  <main class="hero" role="main" aria-labelledby="site-title">
+    <h1 id="site-title"><strong>MISS CHIC</strong></h1>
+    <p class="caption">fall in love &amp; be amazed</p>
+  </main>
+</body>
+</html>
