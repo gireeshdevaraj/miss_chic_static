@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miss Chic | Online Shopping Launching Soon - Fall in Love & Be Amazed</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --color-primary: #333333; /* Deep Charcoal */
+            --color-secondary: #9A8C98; /* Muted Lavender/Taupe */
+            --color-accent: #C9AD9D; /* Rose Gold/Nude */
+            --color-background: #FFFFFF; /* Clean White */
+            --color-light-bg: #F8F8F8; /* Off-White/Cream */
+            --font-body: 'Poppins', sans-serif;
+        }
+
+        /* Basic Reset and Layout */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        .splash-page {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: var(--color-light-bg);
+            font-family: var(--font-body);
+            color: var(--color-primary);
+            padding: 2rem;
+        }
+
+        .splash-logo h1 {
+            font-size: 3rem;
+            letter-spacing: 3px;
+            margin-bottom: 0.5rem;
+        }
+
+        .splash-tagline {
+            font-size: 1.5rem;
+            font-weight: 300;
+            color: var(--color-accent);
+            margin-bottom: 3rem;
+            letter-spacing: 1px;
+        }
+
+        .splash-headline {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            max-width: 650px;
+        }
+
+        .splash-subtext {
+            font-size: 1.1rem;
+            color: var(--color-secondary);
+            margin-bottom: 2.5rem;
+            max-width: 700px;
+        }
+
+        /* Email Capture Form Styles */
+        .email-capture-form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 3rem;
+            max-width: 500px;
+            width: 100%;
+        }
+
+        .email-capture-form input[type="email"] {
+            padding: 12px 15px;
+            border: 1px solid var(--color-secondary);
+            border-right: none;
+            flex-grow: 1;
+            font-size: 1rem;
+            font-family: var(--font-body);
+            outline: none;
+        }
+
+        .email-capture-form .subscribe-btn {
+            padding: 12px 20px;
+            background-color: var(--color-accent);
+            color: var(--color-primary);
+            border: 1px solid var(--color-accent);
+            cursor: pointer;
+            text-transform: uppercase;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+        
+        .email-capture-form .subscribe-btn:hover {
+            background-color: var(--color-secondary);
+        }
+
+        .contact-links a {
+            font-weight: 600;
+            margin: 0 15px;
+            text-decoration: none;
+            color: var(--color-primary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+        }
+        
+        .contact-links a:hover {
+            color: var(--color-accent);
+        }
+
+        .location-info {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid #ddd;
+            width: 80%;
+            max-width: 600px;
+        }
+        
+        .location-info p {
+            margin: 0.5rem 0;
+            font-size: 0.9rem;
+        }
+        
+        .location-info a {
+            color: var(--color-primary);
+            text-decoration: none;
+        }
+        
+        .location-info a:hover {
+            color: var(--color-accent);
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 600px) {
+            .splash-logo h1 { font-size: 2.5rem; }
+            .splash-tagline { font-size: 1.2rem; }
+            .splash-headline { font-size: 1.8rem; }
+            
+            .email-capture-form {
+                flex-direction: column;
+            }
+            .email-capture-form input, .email-capture-form .subscribe-btn {
+                width: 100%;
+                margin-bottom: 10px;
+                border-right: 1px solid var(--color-secondary);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="splash-page">
+
+        <div class="splash-logo">
+            <h1>MISS CHIC</h1>
+        </div>
+        
+        <p class="splash-tagline">Fall in Love & Be Amazed</p>
+
+        <h2 class="splash-headline">
+            Our Online Store is Launching Soon.
+        </h2>
+
+        <p class="splash-subtext">
+            **We are currently setting up the final facility to ensure a seamless shopping experience.** Be the first to shop our full Western and Ethnic wear collections. Sign up now for exclusive launch-day access and a special discount.
+        </p>
+
+        <form class="email-capture-form" style="display:none;" action="#" method="POST"> 
+            <input type="email" placeholder="Enter your email address" required>
+            <button type="submit" class="subscribe-btn">Notify Me</button>
+        </form>
+
+        <div class="contact-links">
+            <a href="contact.html">Visit Our Boutiques</a>
+            <span>|</span>
+            <a href="https://www.instagram.com/miss_chic.fashion" target="_blank">Follow Our Style</a>
+        </div>
+        
+        <div class="location-info">
+            <p><strong>Physical Store Information:</strong></p>
+            <p><strong>Kolenchery:</strong> MM Junction, Ph: <a href="tel:8078380275">8078380275</a></p>
+            <p><strong>Kothamangalam:</strong> AM Road, Opp. KSEB, Ph: <a href="tel:8138059985">8138059985</a></p>
+        </div>
+
+    </div>
+
+</body>
+</html>
